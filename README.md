@@ -6,15 +6,11 @@ A simple generator module for Prestashop
 See [video on YouTube][1]
 
 #Install
-To install create folder bin in Prestashop Root directory
+Then clone repo into a directory of your choosing. To stay with the video, we'll use `bin`
 
-    mkdir bin
+    git clone https://github.com/BWLab/PrestashopGenerator.git bin
     cd bin
-
-Then clone repo
-
-    git clone https://github.com/BWLab/PrestashopGenerator.git
-    chmod u+x console.sh
+	chmod u+x console.sh
     cd ..
 
 Now create composer.json
@@ -36,8 +32,7 @@ and insert
     }
 
 Install dependencies
-
-    composer update
+	composer install or composer update
     
 #Use generator
 ##init module
